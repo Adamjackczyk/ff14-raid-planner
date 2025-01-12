@@ -1,3 +1,5 @@
+import { UserCircle } from "lucide-react";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-500/40 text-gray-100">
@@ -11,8 +13,18 @@ export default function Home() {
             {/* The divider now creates a smoother transition to the empty space */}
             <div className="h-8 w-px bg-gradient-to-b from-transparent via-black/40 to-transparent mx-6 opacity-50"></div>
           </div>
-          {/* Empty div to maintain flex layout when we add right-side content later */}
-          <div></div>
+          {/* Right side with login button */}
+          <div className="flex gap-4">
+            <button
+              className="px-6 py-1 
+    text-black/70 hover:text-black
+    group flex items-center gap-2
+    transition-all duration-200"
+            >
+              <UserCircle className="w-4 h-4 group-hover:scale-110 transition-transform duration-300 ease-out" />
+              <span className="relative font-bold z-10">Log in</span>
+            </button>
+          </div>
         </div>
       </nav>
 
