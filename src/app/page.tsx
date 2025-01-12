@@ -56,6 +56,55 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* Feature Cards Section */}
+        <div className="mt-12 grid grid-cols-3 md:grid-cols-3 gap-8">
+          {/* Raid Schedule Card */}
+          <div className="bg-gradient-to-br from-blue-900/30 to-black/40 rounded-lg border border-blue-700/30 p-4 shadow-lg backdrop-blur-sm">
+            <h3 className="text-lg font-bold text-blue-100 mb-2">
+              Raid Schedule
+            </h3>
+            <p className="text-gray-300 mb-4">
+              Coordinate raid times effortlessly with your static. Track
+              availability, manage time zones, and ensure everyone's on the same
+              page.
+            </p>
+            <ul className="text-gray-400 space-y-2">
+              <li>• Calendar system with timezone support</li>
+              <li>• Track team member availability</li>
+              <li>• Flexible scheduling tools</li>
+            </ul>
+          </div>
+          {/* Job Management Card */}
+          <div className="bg-gradient-to-br from-blue-900/30 to-black/40 rounded-lg border border-blue-700/30 p-4 shadow-lg backdrop-blur-sm">
+            <h3 className="text-lg font-bold text-blue-100 mb-2">
+              Job Management
+            </h3>
+            <p className="text-gray-300 mb-4">
+              Keep track of your static's jobs and roles. Monitor gear
+              progression and optimize team compositions.
+            </p>
+            <ul className="text-gray-400 space-y-2">
+              <li>• Track team compositions</li>
+              <li>• Monitor gear levels</li>
+              <li>• Manage role flexibility</li>
+            </ul>
+          </div>
+          {/* Loot System Card */}
+          <div className="bg-gradient-to-br from-blue-900/30 to-black/40 rounded-lg border border-blue-700/30 p-4 shadow-lg backdrop-blur-sm">
+            <h3 className="text-lg font-bold text-blue-100 mb-2">
+              Loot System
+            </h3>
+            <p className="text-gray-300 mb-4">
+              Streamline your loot distribution process. Keep track of
+              priorities and maintain a fair system for everyone.
+            </p>
+            <ul className="text-gray-400 space-y-2">
+              <li>• Priority list management</li>
+              <li>• Distribution history</li>
+              <li>• Gear progression tracking</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       {/*Footer*/}
